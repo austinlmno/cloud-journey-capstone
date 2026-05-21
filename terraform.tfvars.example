@@ -1,0 +1,11 @@
+# terraform.tfvars.example
+# Copy this file to terraform.tfvars and fill in real values.
+# terraform.tfvars is gitignored to keep project IDs and account IDs out of git history.
+
+project_id         = "your-personal-gcp-project-id"
+billing_account_id = "XXXXXX-XXXXXX-XXXXXX"
+
+# Optional overrides:
+# region              = "us-east1"
+# environment         = "dev"
+# monthly_budget_usd  = 50
